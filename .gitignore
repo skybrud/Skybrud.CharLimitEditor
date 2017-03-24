@@ -1,0 +1,8 @@
+src/packages/
+src/Skybrud.CharLimitEditor/bin/
+src/Skybrud.CharLimitEditor/obj/
+*.suo
+*.user
+src/Skybrud.CharLimitEditor/App_Data/NuGetBackup/
+node_modules/
+releases/temp/

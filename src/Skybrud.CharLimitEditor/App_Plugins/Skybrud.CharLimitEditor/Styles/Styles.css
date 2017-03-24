@@ -1,0 +1,10 @@
+﻿.SkybrudCharLimitEditor .info {
+  margin-top: 2px;
+  font-size: 11px;
+}
+.SkybrudCharLimitEditor .positive {
+  color: #008800;
+}
+.SkybrudCharLimitEditor .negative {
+  color: #880000;
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Skybrud.CharLimitEditor",
+  "description": "Char limit property editor for Umbraco 7+",
+  "company": "Skybrud.dk",
+  "product": "Skybrud.CharLimitEditor",
+  "copyright": "Copyright © 2017",
+  "version": "1.0.0.0",
+  "informationalVersion": "1.0.0",
+  "fileVersion": "1.0.0.0"
+}

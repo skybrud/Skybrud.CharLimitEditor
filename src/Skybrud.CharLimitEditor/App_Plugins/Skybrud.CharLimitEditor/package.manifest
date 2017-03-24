@@ -1,0 +1,39 @@
+﻿{
+    "propertyEditors": [
+        {
+            "alias": "Skybrud.CharLimitEditor",
+            "name": "Char limit",
+            "editor": {
+                "view": "~/App_Plugins/Skybrud.CharLimitEditor/Views/CharLimitEditor.html"
+            },
+            "prevalues": {
+                "fields": [
+                    {
+                        "label": "Number of characters",
+                        "description": "Enter the number of characters to limit on.",
+                        "key": "limit",
+                        "view": "number"
+                    },
+                    {
+                        "label": "Multiline",
+                        "description": "Allow multiline textbox.",
+                        "key": "multiline",
+                        "view": "boolean"
+                    },
+                    {
+                        "label": "Enforce limit",
+                        "description": "Enforce the limit.",
+                        "key": "enforce",
+                        "view": "boolean"
+                    }
+                ]
+            }
+        }
+    ],
+    "javascript": [
+        "~/App_Plugins/Skybrud.CharLimitEditor/Scripts/Controllers/CharLimitEditor.js"
+    ],
+    "css": [
+        "~/App_Plugins/Skybrud.CharLimitEditor/Styles/Styles.css"
+    ]
+}

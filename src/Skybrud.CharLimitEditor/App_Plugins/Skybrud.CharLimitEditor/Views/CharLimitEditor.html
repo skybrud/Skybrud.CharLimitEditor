@@ -1,0 +1,9 @@
+﻿<div class="SkybrudCharLimitEditor" ng-controller="Skybrud.CharLimitEditorController">
+    <div ng-if="model.config.multiline">
+        <textarea ng-model="model.value" ng-change="limitChars()" rows="10" class="umb-editor umb-textarea textstring"></textarea>
+    </div>
+    <div ng-if="!model.config.multiline">
+        <input ng-model="model.value" ng-change="limitChars()" type="text" class="umb-editor umb-textstring textstring" />
+    </div>
+    <div class="info" ng-bind-html="info"></div>
+</div>
