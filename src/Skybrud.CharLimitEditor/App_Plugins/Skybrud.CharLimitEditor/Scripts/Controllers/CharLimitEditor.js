@@ -1,5 +1,7 @@
 ﻿angular.module('umbraco').controller('Skybrud.CharLimitEditorController', function ($scope, localizationService) {
     
+    if (!$scope.model.value) $scope.model.value = '';
+     
     // Initialize the configuration
     var limit = parseInt($scope.model.config.limit);
     $scope.model.config.multiline = $scope.model.config.multiline === '1' || $scope.model.config.multiline === true;
