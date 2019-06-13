@@ -6,3 +6,4 @@ src/Skybrud.CharLimitEditor/obj/
 src/Skybrud.CharLimitEditor/App_Data/NuGetBackup/
 node_modules/
 releases/temp/
+src/.vs/
