@@ -1,5 +1,4 @@
-Skybrud.CharLimitEditor
-=======================
+# Skybrud.CharLimitEditor [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md) [![NuGet](https://img.shields.io/nuget/v/Skybrud.CharLimitEditor.svg)](https://www.nuget.org/packages/Skybrud.CharLimitEditor) [![NuGet](https://img.shields.io/nuget/dt/Skybrud.CharLimitEditor.svg)](https://www.nuget.org/packages/Skybrud.CharLimitEditor)
 
 ## Installation
 
